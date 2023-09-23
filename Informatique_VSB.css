@@ -1,8 +1,36 @@
 header{
-	height: 10%;
+	height: 8%;
 	width: 100%;
-	background-color: #07739B;
+	background-color: #F8F8F8;
+	position: fixed;
+	display: flex;
 
+}
+
+#Box-Lien {
+	flex: 40 0 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	flex: 5;
+}
+
+.Lien {
+	width: 25%;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Lien:hover {
+	background-color: #2b5dfe;
+}
+
+.Text-lien {
+	color: black;
 }
 
 body{
@@ -10,7 +38,8 @@ body{
 	flex-direction: column;
 	margin: 0;
 	padding: 0;
-	background-color: #F8F8F8;
+	background-color: #2b5dfe;
+	color: white;
 }
 
 #Presentation{
@@ -67,9 +96,9 @@ t1{
 }
 
 footer{
-	height: 10%;
+	height: 8%;
 	width: 100%;
-	background-color: #07739B;
+	background-color: #F8F8F8;
 }
 
 a{
